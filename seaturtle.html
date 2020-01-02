@@ -4,6 +4,7 @@
         Save The Turtle
     </title>
         <head>
+            <link rel="stylesheet" href="styles.css">
             <link rel="stylesheet" href="seaturtle.css">
         </head>
 
@@ -13,29 +14,40 @@
             <h1 id="h1-title">Save the Turtles</h1>
 
             <img src="img/seaturtle.jpg" id="turtleimg"/>
+            <button id="donation-button" onclick="window.location.href = '';">Donate!</button>
         </div>
 
         
-        <h2>The World Conservation Union (IUCN) has identified five major hazards to sea turtles:</h2>
-            <!-- <ul> -->
-            <ul class="col-1-2">
-                <!-- <ul> -->
-                <li><span class="boldblue"><strong>&nbsp;Fisheries:</strong></span>&nbsp;Sea turtles virtually everywhere are affected by fisheries, especially longlines, gill nets, and trawls. The most severe of these impacts are death after entanglement, habitat destruction and food web changes.</li>
-                <!-- </ul> -->
-                <!-- <ul> -->
-                <li><span class="boldblue"><strong>Direct Take:&nbsp;</strong></span>Sea turtles and their eggs are killed by people throughout the world for food, and for products including oil, leather and shell.</li>
-                <!-- </ul> -->
-                <!-- <ul> -->
-                <li><span class="boldblue"><strong>Coastal Development:</strong></span>&nbsp;Sea turtle habitats are degraded and destroyed by coastal development. This includes both shoreline and seafloor alterations, such as nesting beach degradation, seafloor dredging, vessel traffic, construction, and alteration of vegetation.</li>
-                <!-- </ul> -->
-                <!-- <ul> -->
-                <li><span class="boldblue"><strong>Pollution:</strong></span>&nbsp;Plastics, discarded fishing gear, petroleum by-products, and other debris harm and kill sea turtles through ingestion and entanglement. Light pollution disrupts nesting behavior and causes hatchling death by leading them away from the sea. Chemical pollutants can weaken sea turtles’ immune systems, making them susceptible to disease.</li>
-                <!-- </ul> -->
-                <!-- <ul> -->
-                <li><span class="boldblue"><strong>Climate change:</strong></span>&nbsp;Climate change will increase the frequency of extreme weather events, result in loss of nesting beaches, and cause other alterations to critical sea turtle habitats and basic oceanographic processes. It may impact natural sex ratios of hatchlings and increase the likelihood of disease outbreaks for sea turtles.</li>
-                <!-- </ul> -->
-                <!-- <p><span style="font-size: 8pt;"><i class="">Sources: Caribbean Conservation Corporation and Todd Steiner, Sea Turtle Restoration Project.</i></span></p> -->
-            </ul><br>
+
+        <div class="info-row">
+            <div class="info-col" id="hazard-col">
+                <h2 id="iucn" style = "text-align: center;">The World Conservation Union (IUCN) has identified five major hazards to sea turtles:</h2>
+
+                <ul class="ul-turtle-hazard">
+                    <li><span class="hazard-item"><strong>&nbsp;Fisheries:</strong></span>&nbsp;Sea turtles virtually everywhere are affected by fisheries, especially longlines, gill nets, and trawls. The most severe of these impacts are death after entanglement, habitat destruction and food web changes.</li>
+                    <br>
+                    <li><span class="hazard-item"><strong>Direct Take:&nbsp;</strong></span>Sea turtles and their eggs are killed by people throughout the world for food, and for products including oil, leather and shell.</li>
+                    <br>
+                    <li><span class="hazard-item"><strong>Coastal Development:</strong></span>&nbsp;Sea turtle habitats are degraded and destroyed by coastal development. This includes both shoreline and seafloor alterations, such as nesting beach degradation, seafloor dredging, vessel traffic, construction, and alteration of vegetation.</li>
+                    <br>
+                    <li><span class="hazard-item"><strong>Pollution:</strong></span>&nbsp;Plastics, discarded fishing gear, petroleum by-products, and other debris harm and kill sea turtles through ingestion and entanglement. Light pollution disrupts nesting behavior and causes hatchling death by leading them away from the sea. Chemical pollutants can weaken sea turtles’ immune systems, making them susceptible to disease.</li>
+                    <br>
+                    <li><span class="hazard-item"><strong>Climate change:</strong></span>&nbsp;Climate change will increase the frequency of extreme weather events, result in loss of nesting beaches, and cause other alterations to critical sea turtle habitats and basic oceanographic processes. It may impact natural sex ratios of hatchlings and increase the likelihood of disease outbreaks for sea turtles.</li>
+                </ul><br>
+            </div>
+
+            <div class="info-col" id="donate-col">
+                <h2 id="iucn" style = "text-align: center;">How You Can Help</h2>
+                
+                <ul id="what-you-do">
+                    <li><span class="hazard-item"><strong>&nbsp;Donate!</strong></span>&nbsp;</li>
+                    <br>
+                    <li><span class="hazard-item"><strong>&nbsp;Donate!</strong></span>&nbsp;</li>
+                    <br>
+                    <li><span class="hazard-item"><strong>&nbsp;Donate!</strong></span>&nbsp;</li>
+                </ul>
+            </div>
+        </div>
         
     </body>
 </html>
