@@ -5,7 +5,7 @@ Our basic HTML website brings awareness to endangered animals. Specifically, ele
 ## Authors
 * Camryn Buonamassa
 * Naveed Naqi
-* Cailin Selca
+* Caitlin Selca
 * David Yuen
 
 
