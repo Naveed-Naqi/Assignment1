@@ -1,0 +1,51 @@
+#turtleimg
+{
+    display: block;
+    height: 50%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#h1-title
+{
+    text-align: center;
+}
+
+.iucn
+{
+    margin: 25px 0 10px;
+}
+
+.info-row
+{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.info-col
+{
+    float: left;
+    width: 50%;
+}
+
+.info-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.ul-hazard-turtle
+{
+    width: 50%;
+}
+
+#what-you-do
+{
+    margin-left: 5%;
+}
+
+.head-class
+{
+    text-align: center;
+}
